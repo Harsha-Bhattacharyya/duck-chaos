@@ -1,11 +1,12 @@
-# Maintainer: Harsha Bhattacharyya <harshabhattacharyya510@duck.com>
+# Maintainer: Duck_enthusiast <harshabhattacharyya510@duck.com>
 pkgname=duck-chaos
-pkgdesc='Fun Duck annoyance sim'
+pkgdesc='Fun Duck annoyance sim
+		Warning: I will not be responsible for the damage caused.'
 pkgver=1.0
 pkgrel=1
 arch=('x86_64')
 url="https://github.com/Harsha-Bhattacharyya/duck-chaos.git"
-license=('MIT')
+license=('0BSD')
 depends=('bash')
 makedepends=('gcc')
 source=("duck-chaos.c"
